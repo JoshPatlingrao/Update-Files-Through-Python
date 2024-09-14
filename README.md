@@ -5,12 +5,13 @@
 ### Skills Learned
 
 ### Tools Used
+- Python
 
 ## Steps
 
 ### Open the File
 
-The allow_list.txt is a file containing the list of valid IP addresses for the network. It’s name is temporarily saved in a global variable so it can be called anywhere in the code. That variable will be called in this case so the text file can be opened so it’s contents can be read. This is done through ‘with’ as the script will be handling an external .txt file, the ‘open()’ facilitates the access to the allow_list.txt file, while ‘r’ is to indicate the intent to read the contents of the file. The ’as’ saves the contents of the file in the local variable called ‘file’.
+The allow_list.txt is a file containing the list of valid IP addresses for the network. It is temporarily saved in a global variable, 'import_file', so it can be called anywhere in the code. That variable will be called in this case so the text file can be opened so it’s contents can be read. This is done through the ‘with’ statement as the script will be handling an external .txt file, the ‘open()’ facilitates the access to the allow_list.txt file, while ‘r’ is to indicate the intent to read the contents of the file. The ’as’ saves the contents of the file in the local variable called ‘file’.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5127faa8-2fee-422a-809a-c115d6d46ae0">
@@ -34,7 +35,7 @@ The string of IPs will then be converted into a list type through the ‘.split(
 
 ### Iterate Through the List
 
-The list of compromised Ips to be removed have been provided in a list. The ‘for’ loop will be used to iterate through each elements sequentially so that the specified IPs will be removed from the approved list. The ‘print()’ is to display that ‘for’ loop is functioning properly.
+The list of compromised IPs to be removed have been provided in a list. The ‘for’ loop will be used to iterate through each elements sequentially so that the specified IPs will be removed from the approved list. The ‘print()’ is to display that ‘for’ loop is functioning properly.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2a5c91e4-2e3f-47c1-855e-13f2ee65f967">
@@ -58,4 +59,4 @@ The modified list of approved IPs will now be converted back into string through
 
 ## Summary
 
-This exercise showcases my ability and understanding of modifying text files through Python.
+This project showcases my ability and understanding of modifying text files through Python. This was done through the development of basic algorithms that convert a .txt file into string format, opening and reading the file, removing the compromised IPs within the list and converting the modified list back into .txt format.
