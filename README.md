@@ -3,6 +3,9 @@
 ## Objective
 
 ### Skills Learned
+- Opening and reading text files.
+- Modifying the contents of text files.
+- Converting .txt files to string and reverting it back to .txt file.
 
 ### Tools Used
 - Python
@@ -15,6 +18,10 @@ The allow_list.txt is a file containing the list of valid IP addresses for the n
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5127faa8-2fee-422a-809a-c115d6d46ae0">
+
+  <p align="center">
+    Figure 1: Opening the text file.
+  </p>
 </p>
 
 ### Read the File
@@ -23,6 +30,10 @@ The file will be converted into string format through the ‘.read()’ function
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ba7ccb0d-7ea0-4947-a101-d1fde8e2077c">
+
+  <p align="center">
+    Figure 2: Reading the text file.
+  </p>
 </p>
 
 ### Convert the String to List
@@ -31,6 +42,10 @@ The string of IPs will then be converted into a list type through the ‘.split(
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1f67d912-54fe-47aa-9336-c8bfb45045d3">
+
+  <p align="center">
+    Figure 3: Converting the text file to a string that can be printed.
+  </p>
 </p>
 
 ### Iterate Through the List
@@ -39,6 +54,10 @@ The list of compromised IPs to be removed have been provided in a list. The ‘f
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2a5c91e4-2e3f-47c1-855e-13f2ee65f967">
+
+  <p align="center">
+    Figure 4: Iterating through the compromised IP list.
+  </p>
 </p>
 
 ### Modify the List
@@ -47,6 +66,10 @@ The first ‘print()’ is to display the state of the approved IP list before m
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7912db03-7645-488b-a90e-91fd95b2d6f9">
+
+  <p align="center">
+    Figure 5: Removing the compromised IPs from the valid IP list.
+  </p>
 </p>
 
 ### Update the File with Revised List
@@ -55,6 +78,10 @@ The modified list of approved IPs will now be converted back into string through
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f445c638-46e5-42d3-b411-2764166d9110">
+
+  <p align="center">
+    Figure 3: Converting the updating string back to a text file.
+  </p>
 </p>
 
 ## Summary
