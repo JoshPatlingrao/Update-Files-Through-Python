@@ -1,5 +1,7 @@
 # Update-Files-Through-Python
 
+This project was facilitated by the Google Cybersecurity Professional Certificate in Coursera. The student was in a scenario where they must update a list of IP addresses in a text file by removing compromised IP addresses. This will be done through simple Python algorithms, where they'll need to convert a .txt file to a string, then to a list, remove the compromised IPs and convert it all back to a .txt file.
+
 ## Objective
 
 ### Skills Learned
